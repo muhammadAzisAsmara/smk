@@ -1,3 +1,9 @@
+:root {
+    --warna-utama: #3aff0e;
+    --warna-abu: #646464;
+    --ukuran-font: 16px;
+    --font-kecil: 10px;
+  }
 nav {
       position: fixed;
       color: var(--warna-utama);
