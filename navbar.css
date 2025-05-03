@@ -1,36 +1,36 @@
 :root {
-    --warna-utama: #3aff0e;
-    --warna-abu: #646464;
-    --ukuran-font: 16px;
-    --font-kecil: 10px;
-  }
+  --warna-utama: #3aff0e;
+  --warna-abu: #646464;
+  --ukuran-font: 16px;
+  --font-kecil: 10px;
+}
 nav {
-      width: 100%;
-      height: 60px;
-      top: 0;
-      left: 0;
-      z-index: 1000;
-      position: fixed;
-      color: var(--warna-utama);
-      display: flex;
-      background-color: var(--warna-abu);
-      align-items: center;
-      justify-content: space-between;
-    }
-    .logo {
-      font-size: var(--ukuran-font);
-      text-align: start;
-      margin-left: 8px;
-    }
-    .navbar {
-      margin-left: 10px;
-      text-align: center;
-      align-items: center;
-    }
-    .navbar, a {
-      text-decoration: none;
-      color: var(--warna-utama);
-      font-size: var(--font-kecil);
-      margin-left: 5px;
-      margin-right: 5px;
-    }
+  width: 100%;
+  height: 60px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  position: fixed;
+  color: var(--warna-utama);
+  display: flex;
+  background-color: var(--warna-abu);
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: var(--ukuran-font);
+  text-align: start;
+  margin-left: 8px;
+}
+.navbar {
+  margin-left: 10px;
+  text-align: center;
+  align-items: center;
+}
+.navbar, a {
+  text-decoration: none;
+  color: var(--warna-utama);
+  font-size: var(--font-kecil);
+  margin-left: 5px;
+  margin-right: 5px;
+}
