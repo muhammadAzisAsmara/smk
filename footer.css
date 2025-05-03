@@ -1,0 +1,21 @@
+:root {
+    --warna-utama: #3aff0e;
+    --warna-abu: #646464;
+    --ukuran-font: 16px;
+    --font-kecil: 10px;
+  }
+footer {
+  display: flex;
+  background-color: var(--warna-abu);
+  width: 100%;
+  height: 150px;
+  justify-content: center;
+  text-align: center;
+}
+h4 {
+  color: var(--warna-abu);
+  margin-top: 30px;
+}
+a {
+  color: var(--warna-utama);
+}
