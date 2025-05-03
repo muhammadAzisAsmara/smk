@@ -1,0 +1,23 @@
+nav {
+      color: var(--warna-utama);
+      display: flex;
+      background-color: var(--warna-abu);
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      font-size: var(--ukuran-font);
+      text-align: start;
+    }
+    .navbar {
+      margin-left: 10px;
+      text-align: center;
+      align-items: center;
+    }
+    .navbar, a {
+      text-decoration: none;
+      color: var(--warna-utama);
+      font-size: var(--font-kecil);
+      margin-left: 5px;
+      margin-right: 5px;
+    }
