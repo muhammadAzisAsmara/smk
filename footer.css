@@ -21,4 +21,5 @@ h4 {
 }
 a {
   color: var(--warna-utama);
+  cursor: pointer;
 }
