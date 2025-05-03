@@ -23,6 +23,7 @@ nav {
   margin-left: 8px;
 }
 .navbar {
+  display: flex;
   margin-left: 10px;
   text-align: center;
   align-items: center;
@@ -31,6 +32,4 @@ nav {
   text-decoration: none;
   color: var(--warna-utama);
   font-size: var(--font-kecil);
-  margin-left: 5px;
-  margin-right: 5px;
 }
