@@ -11,6 +11,7 @@ footer {
   height: 150px;
   justify-content: center;
   text-align: center;
+  font-size: var(--font-kecil);
 }
 h4 {
   color: var(--warna-abu);
