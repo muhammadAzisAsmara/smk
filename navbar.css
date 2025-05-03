@@ -5,6 +5,9 @@
     --font-kecil: 10px;
   }
 nav {
+      top: 0;
+      left: 0;
+      z-index: 1000;
       position: fixed;
       color: var(--warna-utama);
       display: flex;
