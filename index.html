@@ -19,36 +19,30 @@
       background-color: white;
       margin: 0;
       padding: 0;
+      margin-top: 60px;
     }
-    nav {
-      color: var(--warna-utama);
-      display: flex;
-      background-color: var(--warna-abu);
-      align-items: center;
-      justify-content: space-between;
-    }
-    .logo {
-      font-size: var(--ukuran-font);
-      text-align: start;
-    }
-    .navbar {
+    .card {
+      box-shadow: 2px 2px 15px;
+      width: 90%;
+      height: auto;
+      border-radius: 0 35px 0 35px;
       margin-left: 10px;
-      text-align: center;
-      align-items: center;
     }
-    .navbar, a {
-      text-decoration: none;
-      color: var(--warna-utama);
-      font-size: var(--font-kecil);
-      margin-left: 5px;
-      margin-right: 5px;
+    .berita {
+      display: block;
     }
     .text-tengah {
       text-align: center;
     }
+    .text-kecil {
+      font-size: 10px;
+    }
     .text-tentang {
       font-size: var(--font-kecil);
       text-align: center;
+    }
+    .text-margin {
+      padding: 10px;
     }
   </style>
 </head>
@@ -60,8 +54,8 @@
     <div class="navbar">
       <i><b>
       <a href="#home" class="home">Beranda</a>
+      <a href="#berita" class="berita">Berita</a>
       <a href="#guru" class="guru">Guru</a>
-      <a href="#kontak" class="kontak">Kontak</a>
       </b></i>
     </div>
   </nav>
@@ -110,13 +104,30 @@ Sehubungan dengan hal tersebut maka semua warga sekolah harus mau untuk belajar 
     
   </div>
   <!-- Berita End -->
-  
+  <div class="berita">
+    <div class="card text-kecil">
+      <div class="judul">
+        <h1 class="text-margin">Lorem Ipsum</h1>
+      </div>
+      <hr>
+      <p class="text-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nisi quasi aliquam placeat atque qui commodi consequatur veritatis explicabo similique nulla suscipit est eveniet perferendis odio fuga accusantium alias animi magnam, sed et. Libero nostrum sunt quod repellendus debitis dolor eaque consectetur rerum minus sequi, officia pariatur tenetur optio ad provident velit aspernatur, laborum impedit accusantium quia, nisi eius facere sapiente numquam. Perspiciatis commodi dicta aliquid at, modi quo exercitationem obcaecati tenetur repellendus sed fuga impedit, in. Autem ducimus assumenda explicabo animi consequuntur? Itaque praesentium provident quidem, sapiente recusandae id nemo. Autem, sit aperiam. Corrupti ab eligendi fuga quam, voluptates.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti illo, minima nam consectetur culpa expedita sunt laborum quaerat! Earum deserunt tenetur dicta error nobis distinctio, reprehenderit explicabo itaque quas temporibus quasi ut aspernatur dolorum iste maiores, ipsum ad nulla saepe vitae at! Ex eum commodi, blanditiis ipsum explicabo veritatis aperiam.</p>
+    </div>
+  <div class="card text-kecil">
+    <div class="judul">
+      <h1 class="text-margin">Lorem Ipsum</h1>
+    </div>
+  <hr>
+  <p class="text-margin">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident culpa perferendis consequatur doloribus voluptatum dolor nemo eaque at soluta nihil repellendus pariatur ut quia, accusamus rerum illum odit magni architecto fugiat beatae? Error libero quibusdam at mollitia beatae dolorem est quaerat quisquam hic voluptate. Quia culpa velit ad consequatur similique quisquam quaerat nemo nihil aperiam alias ipsam autem deleniti provident, rerum sit sint quae doloribus distinctio temporibus reiciendis esse soluta consequuntur! Omnis delectus porro sint itaque, eveniet molestias suscipit, veritatis consequuntur dolore autem possimus excepturi?
+  </p>
+  </div>
+  </div>
   <!-- Content end -->
   
   <!-- Footer start -->
   <footer>
     <h4>© 2025 Muhammad Azis, </h4>
-    <a href="https://muhammadAzisAsmara/portofolio/" class="linkPorto">PORTOFOLIO</a>
+    <a href="https://muhammadAzisAsmara.github.io/portofolio/" class="linkPorto">Portofolio</a>
   </footer>
   <!-- Footer end -->
 </body>
