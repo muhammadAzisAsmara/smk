@@ -15,11 +15,11 @@ footer {
   border-radius: 10px;
   box-shadow: 2px 2px 20px var(--warna-abu);
 }
-h4 {
+.h4-porto {
   color: black;
   margin-top: 30px;
 }
-a {
+.linkporto {
   color: #00b8ed;
   cursor: pointer;
   margin-top: 30px;
